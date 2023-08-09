@@ -44,6 +44,8 @@ const DetailPage = () => {
           DamageRelations: DamageRelations,
         };
 
+        console.log(formattedPokemonData);
+
         setPokemon(formattedPokemonData);
         setIsLoading(false);
       }
